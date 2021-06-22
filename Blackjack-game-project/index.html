@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.8">
+        <meta hhtp-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/style.css">
+        <title> Blackjack Game </title>
+    </head>
+    <body>
+
+        <div class="blackjack-container">
+            <h2> BLACKJACK </h2>
+            <h3><span id="blackjack-outcome">Let's start the game</span></h3>
+
+            <div class="blackjack-boxes">
+                <div id="you-box">
+                    <h2>You: <span id="you-blackjack-outcome">0</span></h2>
+                </div>
+                <div id="dealer-box">
+                    <h2>Dealer: <span id="dealer-blackjack-outcome">0</span></h2>
+                </div>
+            </div>
+
+            <div class="blackjack-buttons">
+                <div>
+                    <button class="btn-lg btn-primary mr-2" id="hit-button">Hit</button>
+                    <button class="btn-lg btn-warning mr-2" id="stand-button">Stand</button>
+                    <button class="btn-lg btn-danger mr-2" id="deal-button">Deal</button>
+                </div>
+            </div>
+
+            <div class="outcome-table">
+                <table>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>
+                        <td><span id="wins">0</span></td>
+                        <td><span id="losses">0</span></td>
+                        <td><span id="draws">0</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <br>
+        <div class="button-container-div">
+            <input type="button" onclick="location.href='invite.html';" value="Add your information for an exclusive invite to the game" />
+        </div>
+
+        <script src="static/js/script.js"></script>
+    </body>
+</html>

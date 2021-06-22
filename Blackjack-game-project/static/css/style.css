@@ -1,0 +1,53 @@
+.blackjack-container {
+    border: 1px solid black;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blackjack-boxes, .blackjack-buttons, .outcome-table {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.blackjack-boxes, .blackjack-buttons {
+    background:url('https://image.freepik.com/free-vector/poker-table-background-green-color_47243-1067.jpg') center;
+    color: #ffffff;
+}
+
+.blackjack-boxes div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.blackjack-boxes img {
+    width: 25%;
+    padding: 10px;
+}
+
+.blackjack-buttons button {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black
+}
+
+.button-container-div {
+    background-color: crimson;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px;
+    width: 435px;
+    outline: none;
+    margin: auto;
+}
